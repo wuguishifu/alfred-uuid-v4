@@ -65,6 +65,27 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>uuid</string>
+				<key>subtext</key>
+				<string>Generate a random v4 UUID.</string>
+				<key>text</key>
+				<string>v4 uuid</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>68FA08A8-88B4-413B-BCDA-E009DAB1955B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -85,27 +106,6 @@
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>uuid</string>
-				<key>subtext</key>
-				<string>Generate a random v4 UUID.</string>
-				<key>text</key>
-				<string>v4 uuid</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>68FA08A8-88B4-413B-BCDA-E009DAB1955B</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
 	</array>
 	<key>readme</key>
 	<string># alfred-uuid-v4
@@ -118,9 +118,9 @@ You can run the workflow using the keyword `uuid`.</string>
 		<key>58613687-979A-4E9D-B408-8BA4AD92D66A</key>
 		<dict>
 			<key>xpos</key>
-			<real>465</real>
+			<real>445</real>
 			<key>ypos</key>
-			<real>145</real>
+			<real>150</real>
 		</dict>
 		<key>68FA08A8-88B4-413B-BCDA-E009DAB1955B</key>
 		<dict>
