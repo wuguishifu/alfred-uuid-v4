@@ -1,4 +1,4 @@
-#/bin/zsh --no-rcs
+#!/bin/zsh --no-rcs
 
-uuidgen | tr -d '\n' | tr '[:upper:]' '[:lower:]' | pbcopy
+uuidgen | tr -d '\n' | tr '[:upper:]' '[:lower:]' | pbcopy && pbpaste && echo
 
